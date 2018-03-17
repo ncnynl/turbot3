@@ -16,7 +16,7 @@
 
 <launch>
 
-  <!--<include file="$(find turbot3_bringup)/launch/robot.launch">-->
-
+  <include file="$(find turbot3_bringup)/launch/robot.launch">
+  <include file="$(find turbot3_bringup)/launch/remote.launch">
   <include file="$(find turbot3_slam)/launch/cartographer.launch" />
 </launch>
