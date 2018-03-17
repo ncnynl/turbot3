@@ -1,0 +1,6 @@
+<launch>
+
+  <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch"/>
+
+</launch>
+
