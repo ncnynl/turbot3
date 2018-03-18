@@ -20,7 +20,7 @@
   <node name="cartographer_node" pkg="cartographer_ros"
       type="cartographer_node" args="
           -configuration_directory $(find turbot3_slam)/config 
-          -configuration_basename turbot3_lidar_2d.lua"
+          -configuration_basename turbot3_lidar_2d_noimu.lua"
       output="screen">
     <remap from="scan" to="/scan" />
   </node>
