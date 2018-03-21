@@ -1,3 +1,5 @@
+#need to fixed https://wenda.ncnynl.com/question/73
+
 <launch>
 
   <node pkg="slam_karto" type="slam_karto" name="slam_karto" output="screen">
