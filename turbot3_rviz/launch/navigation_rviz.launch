@@ -1,6 +1,4 @@
+
 <launch>
-
-
-  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turtlebot3_navigation)/rviz/turtlebot3_nav.rviz" output="screen" />
-
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turbot3_rviz)/rviz/navigation.rviz"/>
 </launch>
