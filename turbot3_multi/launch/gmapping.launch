@@ -1,0 +1,11 @@
+<launch>
+<arg name="robot_name" default=""/>
+<group ns="$(robot_name)">
+  <include file="$(find turtlebot3_slam)/launch/turtlebot3_gmapping.launch">
+    <arg name="set_base_frame" value="$(arg robot_name)/base_footprint"/>
+    <arg name="set_odom_frame" value="$(arg robot_name)/odom"/>
+    <arg name="set_map_frame"  value="$(arg robot_name)/map"/>
+  </include>
+<group>
+
+</launch>

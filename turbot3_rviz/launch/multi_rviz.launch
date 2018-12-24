@@ -1,0 +1,3 @@
+<launch>
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find turbot3_multi)/rviz/multi_slam.rviz"/>
+</launch>

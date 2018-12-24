@@ -1,0 +1,10 @@
+<launch>
+  <arg name="robot_name" default=""/>
+  <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+      <arg name="multi_robot_name" value="$(arg robot_name)"/>
+  </include>
+
+  <include file="$(find turbot3_multi)/launch/robot_merge.launch">
+      <arg name="robot_name" value="$(arg robot_name)"/>
+  </include>
+</launch>
