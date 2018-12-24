@@ -8,10 +8,10 @@
 
 
   <group ns="$(arg robot_name)/map_merge">
-    <param name="init_pose_x"   value="$(robot_x_pos)"/>
-    <param name="init_pose_y"   value="$(robot_y_pos)"/>
-    <param name="init_pose_z"   value="$(robot_z_pos)"/>
-    <param name="init_pose_yaw" value="$(robot_yaw)"  />
+    <param name="init_pose_x"   value="$(arg robot_x_pos)"/>
+    <param name="init_pose_y"   value="$(arg robot_y_pos)"/>
+    <param name="init_pose_z"   value="$(arg robot_z_pos)"/>
+    <param name="init_pose_yaw" value="$(arg robot_yaw)"  />
   </group>
 
 
