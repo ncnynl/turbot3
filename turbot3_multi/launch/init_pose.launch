@@ -14,6 +14,5 @@
     <param name="init_pose_yaw" value="$(arg robot_yaw)"  />
   </group>
 
-
   <node pkg="tf" type="static_transform_publisher" name="world_to_$(arg robot_name)_tf_broadcaster"  args="0 0 0 0 0 0 /map /$(arg robot_name)/map 100"/>
 </launch>

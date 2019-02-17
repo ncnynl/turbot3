@@ -12,4 +12,5 @@
     <param name="estimation_confidence" value="1.0"/>
   </node>
 
+<include file="$(find turbot3_rviz)/launch/multi_rviz.launch"/>
 </launch>
